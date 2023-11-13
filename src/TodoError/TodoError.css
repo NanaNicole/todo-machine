@@ -1,0 +1,21 @@
+.errorImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.errorImg {
+    width: 200px;
+}
+
+.errorTodoText {
+    background: linear-gradient(#e45372,#ff9100);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Agbalumo', sans-serif;
+    text-align: center;
+    font-size: 40px;
+  }

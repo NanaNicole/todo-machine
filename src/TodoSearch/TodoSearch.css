@@ -1,0 +1,30 @@
+.TodoSearch {
+    border-radius: 50px;
+    border: 2px solid pink;
+    margin: 0 24px;
+    height: 64px;
+    width: calc(100% - 62px);
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Mali',sans-serif;
+}
+
+.TodoSearch::placeholder {
+    color: rgb(189, 146, 230);
+    font-family: 'Mali', sans-serif;
+    font-weight: 400;
+}
+
+.TodoSearch:focus {
+    outline-color: aquamarine;
+}
+
+.searchImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchImg {
+    max-width: 200px;
+}

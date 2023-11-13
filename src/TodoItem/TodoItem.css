@@ -1,0 +1,72 @@
+.TodoItem {
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 5px aqua;
+    font-family: 'Mali',sans-serif;
+    border-radius: 5px;word-break: break-all;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100%-120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.TodoItem-p--completed {
+    text-decoration: line-through;
+}
+
+.Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    font-weight: bold;
+
+    transition: transform .2s;
+}
+
+.Icon:hover {
+    transform: scale(1.5);
+}
+
+.Icon-check {
+    position: absolute;
+    left: 12px;
+    background-image: url('../Img/checkFalse.png');
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icon-check--active {
+    color: pink;
+    background-image: url('../Img/checkTrue.png');
+}
+
+.Icon-delete {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 20px;
+    background-image: url('../Img/icon-close.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Icon-delete:hover {
+    background-image: url('../Img/icon-close-red.png');
+}

@@ -1,0 +1,70 @@
+.ModalForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ModalImages {
+    display: inline-block;
+    text-align: center;
+}
+
+.ModalImg {
+    width: 100px;
+}
+
+.ModalForm label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.ModalForm textarea {
+    border-radius: 5px;
+    border: 1px solid deeppink;
+    outline-color: aqua;
+    margin: 10px;
+    resize: vertical;
+}
+
+.TodoForm-buttonContainer {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 15%;
+}
+
+.TodoForm-button {
+    border-radius: 15px;
+    border: 1px solid darkcyan;
+    box-shadow: 0px 5px 5px #f8bbf1;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 120px;
+    max-width: 120px;
+
+    transition: transform .2s;
+}
+
+.TodoForm-button--cancel {
+    background-color: rgb(241, 58, 94);
+    color: white;
+    font-weight: 700;
+    margin: 5px 2%;
+}
+
+.TodoForm-button--cancel:hover {
+    transform: scale(1.2);
+}
+
+.TodoForm-button--add {
+    background-color: aqua;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin: 5px 2%;
+}
+
+.TodoForm-button--add:hover {
+    transform: scale(1.2);
+}
